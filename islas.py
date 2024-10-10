@@ -22,12 +22,6 @@ def dfs(i,j):
       if 0<=ni<F and 0<=nj<C and matriz[ni,nj]==1 and not visitas[ni,nj]:
          dfs(ni,nj)
          
-#for i in range(F):
-    #for j in range(C):
-     #  if matriz[i, j] == 1 and not visitas[i, j]:
-      #      dfs(i, j) 
-#print("Posiciones de los 1 en la isla:")
-#print(om)
 
 for i in range(F):
     for j in range(C):
